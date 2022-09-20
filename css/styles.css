@@ -1,26 +1,68 @@
 :root {}
 
-body {}
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.list {
+    list-style-type: none;
+}
 
 /* Logo */
 
-.logo {}
+.logo {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+}
+
+.article {}
 
 /* Text */
 
-.text {}
+.text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+}
 
 /* Buttons */
 
-.buttons {}
+.main-button {
+    font-size: 16px;
+    line-height: 1.9;
+    letter-spacing: 0.06em;
+
+    text-align: center;
+
+}
 
 .buttons {}
+
+.button {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    letter-spacing: 0.03em;
+
+    text-align: center;
+}
 
 /* Header */
 
 .header {}
 
-.header-nav {}
+.header-nav {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
 
 /* Menu */
 
@@ -38,15 +80,26 @@ body {}
 
 .main {}
 
-.main-tittle {}
+.main-tittle {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+
+    text-align: center;
+    text-transform: uppercase;
+}
 
 /* Section */
 
 .section {}
 
-.section-tittle {}
+.section-tittle {
+    font-size: 36px;
+    line-height: 1.6;
+    letter-spacing: 0.03em;
 
-.tittle {}
+    text-align: center;
+}
 
 /* Features */
 
@@ -54,7 +107,13 @@ body {}
 
 .features-story {}
 
-.features-tittle {}
+.features-tittle {
+    font-size: 14px;
+    line-height: 1.14px;
+    letter-spacing: 0.03em;
+
+    text-transform: uppercase;
+}
 
 .features-text {}
 
@@ -72,7 +131,12 @@ body {}
 
 .person-img {}
 
-.person-name {}
+.person-name {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+}
 
 /* Portfolio */
 
@@ -80,7 +144,11 @@ body {}
 
 .portfolio-example {}
 
-.portfolio-tittle {}
+.portfolio-tittle {
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
 
 /* Footer */
 
@@ -88,6 +156,14 @@ body {}
 
 /* Address */
 
-.address {}
+.address {
+    font-style: normal;
+}
 
-.address-book {}
+.address-book {
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+
+
+}
