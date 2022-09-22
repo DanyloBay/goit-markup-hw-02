@@ -14,7 +14,7 @@ body {
     color: var(--main-text-color);
 }
 
-a {
+.link {
     text-decoration: none;
 }
 
@@ -41,9 +41,9 @@ a {
 /* Text */
 
 .text {
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.7;
+    letter-spacing: 0.03em;
 
     color: var(--main-text-color);
 }
@@ -51,6 +51,7 @@ a {
 /* Buttons */
 
 .main__button {
+    font-weight: 700;
     font-size: 16px;
     line-height: 1.9;
     letter-spacing: 0.06em;
@@ -76,7 +77,8 @@ a {
     cursor: pointer;
 }
 
-.button:hover {
+.button:hover,
+.button:focus {
     background-color: var(--second-color);
     color: var(--white-text-color);
 }
@@ -113,7 +115,6 @@ a {
     color: var(--second-color);
 }
 
-eco
 /* Contacts */
 
 .contacts {
@@ -121,10 +122,15 @@ eco
 }
 
 .contacts__nav {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
     color: var(--main-text-color);
 }
 
-.contacts__nav:hover {
+.contacts__nav:hover,
+.contacts__nav:focus {
     color: var(--second-color);
 }
 
@@ -138,6 +144,7 @@ eco
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
+    letter-spacing: 0.06em;
 
     color: var(--white-text-color);
 
@@ -150,6 +157,7 @@ eco
 .section {}
 
 .section__tittle {
+    font-weight: 700;
     font-size: 36px;
     line-height: 1.6;
     letter-spacing: 0.03em;
@@ -169,8 +177,9 @@ eco
 .features__story {}
 
 .features__tittle {
+    font-weight: 700;
     font-size: 14px;
-    line-height: 1.14px;
+    line-height: 1.14;
     letter-spacing: 0.03em;
     color: var(--main-color);
 
@@ -207,6 +216,7 @@ eco
 .portfolio__example {}
 
 .portfolio__tittle {
+    font-weight: 700;
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
@@ -244,3 +254,5 @@ eco
 .address__tel {
     color: var(--footer-text-color);
 }
+
+.address__link:
